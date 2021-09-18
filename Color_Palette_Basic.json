@@ -1,9 +1,731 @@
 {
     "colors": [
         {
+            "type": "ProgressBarChunk",
+            "name": "Oxford Blue",
+            "hex": "FFCC00",
+            "rgb": [
+                4,
+                37,
+                78
+            ],
+            "cmyk": [
+                95,
+                53,
+                0,
+                69
+            ],
+            "hsb": [
+                213,
+                95,
+                31
+            ],
+            "hsl": [
+                213,
+                90,
+                16
+            ],
+            "lab": [
+                15,
+                7,
+                -28
+            ]
+        },
+        {
+            "type": "ScrollAreaForeground",
+            "name": "Oxford Blue",
+            "hex": "4B526D",
+            "rgb": [
+                4,
+                37,
+                78
+            ],
+            "cmyk": [
+                95,
+                53,
+                0,
+                69
+            ],
+            "hsb": [
+                213,
+                95,
+                31
+            ],
+            "hsl": [
+                213,
+                90,
+                16
+            ],
+            "lab": [
+                15,
+                7,
+                -28
+            ]
+        },
+        {
+            "type": "ScrollAreaBackground",
+            "name": "Oxford Blue",
+            "hex": "1d1d20",
+            "rgb": [
+                4,
+                37,
+                78
+            ],
+            "cmyk": [
+                95,
+                53,
+                0,
+                69
+            ],
+            "hsb": [
+                213,
+                95,
+                31
+            ],
+            "hsl": [
+                213,
+                90,
+                16
+            ],
+            "lab": [
+                15,
+                7,
+                -28
+            ]
+        },
+        {
+            "type": "ProgressBarForeground",
+            "name": "Oxford Blue",
+            "hex": "4B526D",
+            "rgb": [
+                4,
+                37,
+                78
+            ],
+            "cmyk": [
+                95,
+                53,
+                0,
+                69
+            ],
+            "hsb": [
+                213,
+                95,
+                31
+            ],
+            "hsl": [
+                213,
+                90,
+                16
+            ],
+            "lab": [
+                15,
+                7,
+                -28
+            ]
+        },
+        
+        {
+            "type": "ProgressBarBackground",
+            "name": "Oxford Blue",
+            "hex": "050609",
+            "rgb": [
+                4,
+                37,
+                78
+            ],
+            "cmyk": [
+                95,
+                53,
+                0,
+                69
+            ],
+            "hsb": [
+                213,
+                95,
+                31
+            ],
+            "hsl": [
+                213,
+                90,
+                16
+            ],
+            "lab": [
+                15,
+                7,
+                -28
+            ]
+        },
+        {
+            "type": "ProgressBarBorder",
+            "name": "Oxford Blue",
+            "hex": "344466",
+            "rgb": [
+                4,
+                37,
+                78
+            ],
+            "cmyk": [
+                95,
+                53,
+                0,
+                69
+            ],
+            "hsb": [
+                213,
+                95,
+                31
+            ],
+            "hsl": [
+                213,
+                90,
+                16
+            ],
+            "lab": [
+                15,
+                7,
+                -28
+            ]
+        },
+        {
+            "type": "ProgressBarForeground",
+            "name": "Oxford Blue",
+            "hex": "4B526D",
+            "rgb": [
+                4,
+                37,
+                78
+            ],
+            "cmyk": [
+                95,
+                53,
+                0,
+                69
+            ],
+            "hsb": [
+                213,
+                95,
+                31
+            ],
+            "hsl": [
+                213,
+                90,
+                16
+            ],
+            "lab": [
+                15,
+                7,
+                -28
+            ]
+        },
+        
+        {
+            "type": "StatusBackground",
+            "name": "Oxford Blue",
+            "hex": "090B10",
+            "rgb": [
+                4,
+                37,
+                78
+            ],
+            "cmyk": [
+                95,
+                53,
+                0,
+                69
+            ],
+            "hsb": [
+                213,
+                95,
+                31
+            ],
+            "hsl": [
+                213,
+                90,
+                16
+            ],
+            "lab": [
+                15,
+                7,
+                -28
+            ]
+        },
+        {
+            "type": "StatusBorder",
+            "name": "Oxford Blue",
+            "hex": "000000",
+            "rgb": [
+                4,
+                37,
+                78
+            ],
+            "cmyk": [
+                95,
+                53,
+                0,
+                69
+            ],
+            "hsb": [
+                213,
+                95,
+                31
+            ],
+            "hsl": [
+                213,
+                90,
+                16
+            ],
+            "lab": [
+                15,
+                7,
+                -28
+            ]
+        },
+        {
+            "type": "StatusForeground",
+            "name": "Oxford Blue",
+            "hex": "4B526D",
+            "rgb": [
+                4,
+                37,
+                78
+            ],
+            "cmyk": [
+                95,
+                53,
+                0,
+                69
+            ],
+            "hsb": [
+                213,
+                95,
+                31
+            ],
+            "hsl": [
+                213,
+                90,
+                16
+            ],
+            "lab": [
+                15,
+                7,
+                -28
+            ]
+        },
+        {
+            "type": "InputBackground",
+            "name": "Oxford Blue",
+            "hex": "050609",
+            "rgb": [
+                4,
+                37,
+                78
+            ],
+            "cmyk": [
+                95,
+                53,
+                0,
+                69
+            ],
+            "hsb": [
+                213,
+                95,
+                31
+            ],
+            "hsl": [
+                213,
+                90,
+                16
+            ],
+            "lab": [
+                15,
+                7,
+                -28
+            ]
+        },
+        {
+            "type": "InputBorder",
+            "name": "Oxford Blue",
+            "hex": "344466",
+            "rgb": [
+                4,
+                37,
+                78
+            ],
+            "cmyk": [
+                95,
+                53,
+                0,
+                69
+            ],
+            "hsb": [
+                213,
+                95,
+                31
+            ],
+            "hsl": [
+                213,
+                90,
+                16
+            ],
+            "lab": [
+                15,
+                7,
+                -28
+            ]
+        },
+        {
+            "type": "InputForeground",
+            "name": "Oxford Blue",
+            "hex": "EEFFFF",
+            "rgb": [
+                4,
+                37,
+                78
+            ],
+            "cmyk": [
+                95,
+                53,
+                0,
+                69
+            ],
+            "hsb": [
+                213,
+                95,
+                31
+            ],
+            "hsl": [
+                213,
+                90,
+                16
+            ],
+            "lab": [
+                15,
+                7,
+                -28
+            ]
+        },
+        {
+            "type": "MenuBackground",
+            "name": "Oxford Blue",
+            "hex": "0F111A",
+            "rgb": [
+                4,
+                37,
+                78
+            ],
+            "cmyk": [
+                95,
+                53,
+                0,
+                69
+            ],
+            "hsb": [
+                213,
+                95,
+                31
+            ],
+            "hsl": [
+                213,
+                90,
+                16
+            ],
+            "lab": [
+                15,
+                7,
+                -28
+            ]
+        },
+        {
+            "type": "MenuForeground",
+            "name": "Oxford Blue",
+            "hex": "8F93A2",
+            "rgb": [
+                4,
+                37,
+                78
+            ],
+            "cmyk": [
+                95,
+                53,
+                0,
+                69
+            ],
+            "hsb": [
+                213,
+                95,
+                31
+            ],
+            "hsl": [
+                213,
+                90,
+                16
+            ],
+            "lab": [
+                15,
+                7,
+                -28
+            ]
+        },
+        {
+            "type": "MenuSelectionForeground",
+            "name": "Oxford Blue",
+            "hex": "80CBC4",
+            "rgb": [
+                4,
+                37,
+                78
+            ],
+            "cmyk": [
+                95,
+                53,
+                0,
+                69
+            ],
+            "hsb": [
+                213,
+                95,
+                31
+            ],
+            "hsl": [
+                213,
+                90,
+                16
+            ],
+            "lab": [
+                15,
+                7,
+                -28
+            ]
+        },
+        {
+            "type": "MenuSelection",
+            "name": "Oxford Blue",
+            "hex": "00000050",
+            "rgb": [
+                4,
+                37,
+                78
+            ],
+            "cmyk": [
+                95,
+                53,
+                0,
+                69
+            ],
+            "hsb": [
+                213,
+                95,
+                31
+            ],
+            "hsl": [
+                213,
+                90,
+                16
+            ],
+            "lab": [
+                15,
+                7,
+                -28
+            ]
+        },
+        
+        
+        {
+            "type": "HoverTabItemBG",
+            "name": "Oxford Blue",
+            "hex": "80CBC4",
+            "rgb": [
+                4,
+                37,
+                78
+            ],
+            "cmyk": [
+                95,
+                53,
+                0,
+                69
+            ],
+            "hsb": [
+                213,
+                95,
+                31
+            ],
+            "hsl": [
+                213,
+                90,
+                16
+            ],
+            "lab": [
+                15,
+                7,
+                -28
+            ]
+        },
+        
+        {
+            "type": "ActiveTabItemBG",
+            "name": "Oxford Blue",
+            "hex": "80CBC4",
+            "rgb": [
+                4,
+                37,
+                78
+            ],
+            "cmyk": [
+                95,
+                53,
+                0,
+                69
+            ],
+            "hsb": [
+                213,
+                95,
+                31
+            ],
+            "hsl": [
+                213,
+                90,
+                16
+            ],
+            "lab": [
+                15,
+                7,
+                -28
+            ]
+        },
+        
+        {
+            "type": "TabItemActiveBorder",
+            "name": "Oxford Blue",
+            "hex": "80CBC4",
+            "rgb": [
+                4,
+                37,
+                78
+            ],
+            "cmyk": [
+                95,
+                53,
+                0,
+                69
+            ],
+            "hsb": [
+                213,
+                95,
+                31
+            ],
+            "hsl": [
+                213,
+                90,
+                16
+            ],
+            "lab": [
+                15,
+                7,
+                -28
+            ]
+        },
+        {
+            "type": "TabItemBorder",
+            "name": "Oxford Blue",
+            "hex": "464B5D",
+            "rgb": [
+                4,
+                37,
+                78
+            ],
+            "cmyk": [
+                95,
+                53,
+                0,
+                69
+            ],
+            "hsb": [
+                213,
+                95,
+                31
+            ],
+            "hsl": [
+                213,
+                90,
+                16
+            ],
+            "lab": [
+                15,
+                7,
+                -28
+            ]
+        },
+        {
+            "type": "TabItemBG",
+            "name": "Oxford Blue",
+            "hex": "0F111A",
+            "rgb": [
+                4,
+                37,
+                78
+            ],
+            "cmyk": [
+                95,
+                53,
+                0,
+                69
+            ],
+            "hsb": [
+                213,
+                95,
+                31
+            ],
+            "hsl": [
+                213,
+                90,
+                16
+            ],
+            "lab": [
+                15,
+                7,
+                -28
+            ]
+        },
+        {
+            "type": "TabItemFG",
+            "name": "Oxford Blue",
+            "hex": "4B526D",
+            "rgb": [
+                4,
+                37,
+                78
+            ],
+            "cmyk": [
+                95,
+                53,
+                0,
+                69
+            ],
+            "hsb": [
+                213,
+                95,
+                31
+            ],
+            "hsl": [
+                213,
+                90,
+                16
+            ],
+            "lab": [
+                15,
+                7,
+                -28
+            ]
+        },
+        
+        
+        
+        {
             "type": "BGUser",
             "name": "Oxford Blue",
-            "hex": "04254E",
+            "hex": "0f111a",
             "rgb": [
                 4,
                 37,
@@ -127,7 +849,7 @@
         {
             "type": "BGBase",
             "name": "Oxford Blue",
-            "hex": "031232",
+            "hex": "090B10",
             "rgb": [
                 3,
                 18,

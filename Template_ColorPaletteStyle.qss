@@ -13,34 +13,34 @@
                         
                     }
                     QFrame {
-                        background-color:@BGBase;
+                        background-color:@BGUser;
                     }
                     QDialog {
-                        background-color:@BGBase;
+                        background-color:@BGUser;
                     }QTabWidget{
-                        background-color:@White;
+                        background-color:@BGUser;
                         }QTableView{
-                            background-color:@White;
+                            background-color:@BGUser;
                             color: @White;
                             border-width: 1px;
                         border-style: solid;
                         border-color: @Primary;
                         }QTableWidget{
-                            background-color:@White;
+                            background-color:@BGUser;
                             color: @White;
                             border-width: 1px;
                         border-style: solid;
                         border-color: @Primary;
                         }
                         QListView{
-                            background-color:@White;
+                            background-color:@BGUser;
                             color: @White;
                             border-width: 1px;
                         border-style: solid;
                         border-color: @Primary;
                         }
                         QListWidget{
-                            background-color:@White;
+                            background-color:@BGUser;
                             color: @White;
                             border-width: 1px;
                         border-style: solid;
@@ -146,12 +146,20 @@
   { 
   color: rgb(64, 64, 64); 
   }
+                    QStackedWidget[objectName^="stackedWidget"]  {
+                        border-width: 1px;
+                        border-style: solid;
+                        border-color: @InputBorder;
+                        background-color: @InputBackground;
+                        
+                        border-radius: 4px;
+                    }
                     QTextEdit {
                         border-width: 1px;
                         border-style: solid;
-                        border-color: @Primary;
-                        background-color: @BGUser;
-                        color: @White;
+                        border-color: @InputBorder;
+                        background-color: @InputBackground;
+                        color: @InputForeground;
                         
                         border-radius: 4px;
                         font: 400 14px  "Inter";
@@ -159,9 +167,9 @@
                     QPlainTextEdit {
                         border-width: 1px;
                         border-style: solid;
-                        border-color: @Primary;
-                        background-color: @BGUser;
-                        color: @White;
+                        border-color: @InputBorder;
+                        background-color: @InputBackground;
+                        color: @InputForeground;
                         border-radius: 4px;
                         font: 400 14px  "Inter";
                     }
@@ -173,7 +181,7 @@
                         border-bottom-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 @White, stop:1 @White);
                         border-width: 1px;
                         border-radius: 5px;
-                        color: @White;
+                        color: @InputForeground;
                         padding: 2px;
                         background-color: @White;
                     }
@@ -280,40 +288,40 @@
                     }
                     QProgressBar {
                         text-align: center;
-                        color: @Accent;
+                        color: @ProgressBarForeground;
                         border-radius: 10px;
                         border-color: transparent;
                         border-style: solid;
-                        background-color: #2e2e2e;
+                        background-color: @ProgressBarBackground;
                     }
                     QProgressBar::chunk {
-                        background-color: @Secondary	;
+                        background-color: @ProgressBarChunk	;
                         border-radius: 10px;
                     }
                     QMenuBar {
-                        background-color: @Accent;
+                        background-color: @MenuBackground;
                     }
                     QMenuBar::item {
-                        color: @White;
+                        color: @MenuForeground;
                         spacing: 3px;
                         padding: 1px 4px;
-                        background-color: @BGBase;
+                        background-color: @MenuBackground;
                     }
 
                     QMenuBar::item:selected {
-                        background-color: @BGBase;
-                        color: @White;
+                        background-color: @MenuSelection;
+                        color: @MenuSelectionForeground;
                     }
                     QMenu {
-                        background-color: @BGBase;
+                        background-color: @MenuBackground;
                     }
                     QMenu::item:selected {
-                        background-color: @BGBase;
-                        color: @White;
+                        background-color: @MenuSelection;
+                        color: @MenuSelectionForeground;
                     }
                     QMenu::item {
-                        color: @White;
-                        background-color: @BGBase;
+                        color: @MenuForeground;
+                        background-color: @MenuBackground;
                     }
                     QTabWidget {
                         color:@Black;
@@ -333,14 +341,14 @@
                         border-right-width:0px;
                         border-top-width:1px;
                         border-bottom-width:0px;
-                        border-top-color: @Black;
-                        border-left-color: @Black;
-                        border-bottom-color: @Black;
+                        border-top-color: @TabItemBorder;
+                        border-left-color: @TabItemBorder;
+                        border-bottom-color: @TabItemBorder;
                         border-top-left-radius: 4px;
-                        color: @White;
+                        color: @TabItemFG;
                         padding: 3px;
                         margin-left:0px;
-                        background-color: @BGBase;
+                        background-color: @TabItemBG;
                     }
                     QTabBar::tab:last {
                         border-style: solid;
@@ -348,38 +356,38 @@
                         border-left-width:1px;
                         border-right-width:1px;
                         border-bottom-width:0px;
-                        border-color: @Black;
+                        border-color: @TabItemBorder;
                         border-top-right-radius: 4px;
-                        color: @White;
+                        color: @TabItemFG;
                         padding: 3px;
                         margin-left:0px;
-                        background-color: @BGBase;
+                        background-color: @TabItemBG;
                     }
                     QTabBar::tab {
                         border-style: solid;
                         border-top-width:1px;
                         border-bottom-width:0px;
                         border-left-width:1px;
-                        border-top-color: @Black;
-                        border-left-color: @Black;
-                        border-bottom-color: @Black;
-                        color: @White;
+                        border-top-color: @TabItemBorder;
+                        border-left-color: @TabItemBorder;
+                        border-bottom-color: @TabItemBorder;
+                        color: @TabItemFG;
                         padding: 3px;
                         margin-left:0px;
-                        background-color: @BGBase;
+                        background-color: @TabItemBG;
                     }
                     QTabBar::tab:selected, QTabBar::tab:last:selected, QTabBar::tab:hover {
                         border-style: solid;
                         border-left-width:1px;
                         border-bottom-width:0px;
                         border-right-color: transparent;
-                        border-top-color: @Black;
-                        border-left-color: @Black;
-                        border-bottom-color: @Black;
-                        color: @White;
+                        border-top-color: @TabItemActiveBorder;
+                        border-left-color: @TabItemActiveBorder;
+                        border-bottom-color: @TabItemActiveBorder;
+                        color: @TabItemFG;
                         padding: 3px;
                         margin-left:0px;
-                        background-color: @BGBase;
+                        background-color: @TabItemBG;
                     }
 
                     QTabBar::tab:selected, QTabBar::tab:first:selected, QTabBar::tab:hover {
@@ -388,13 +396,13 @@
                         border-bottom-width:0px;
                         border-top-width:1px;
                         border-right-color: transparent;
-                        border-top-color: @Black;
-                        border-left-color: @Black;
-                        border-bottom-color: @Black;
-                        color: @White;
+                        border-top-color: @TabItemActiveBorder;
+                        border-left-color: @TabItemActiveBorder;
+                        border-bottom-color: @TabItemActiveBorder;
+                        color: @TabItemFG;
                         padding: 3px;
                         margin-left:0px;
-                        background-color: @BGBase;
+                        background-color:@TabItemBG;
                     }
 
                     QCheckBox {
@@ -460,67 +468,70 @@
                         background-color: transparent;
                     }
                     QStatusBar {
-                        color:@Accent;
+                        color:@StatusForeground;
+                        background-color:@StatusBackground;
+                        border-width: 1px;
+                        border-color: @StatusBorder;
                     }
                     QSpinBox {
-                        color: @White;
-                        background-color: @BGUser;
+                        color: @InputForeground;
+                        background-color: @InputBackground;
                         border-width: 1px;
                         border-style: solid;
-                        border-color: @Primary;
+                        border-color: @InputBorder;
                         font: 400 14px  "Inter";
                     }
                     QDoubleSpinBox {
-                        color: @White;
-                        background-color: @BGUser;
+                        color: @InputForeground;
+                        background-color: @InputBackground;
                         border-width: 1px;
                         border-style: solid;
-                        border-color: @Primary;
+                        border-color: @InputBorder;
                         border-radius: 4px;
                         font: 400 14px  "Inter";
                     }
                     QTimeEdit {
-                        color: @White;
-                        background-color: @BGUser;
+                        color: @InputForeground;
+                        background-color: @InputBackground;
                         border-width: 1px;
                         border-style: solid;
-                        border-color: @Primary;
+                        border-color: @InputBorder;
                         border-radius: 4px;
                         font: 400 14px  "Inter";
                     }
                     QDateTimeEdit {
-                        color: @White;
-                        background-color: @BGUser;
+                        color: @InputForeground;
+                        background-color: @InputBackground;
                         border-width: 1px;
                         border-style: solid;
-                        border-color: @Primary;
+                        border-color: @InputBorder;
                         border-radius: 4px;
                         font: 400 14px  "Inter";
                     }
                     QDateEdit {
-                        color: @White;
-                        background-color: @BGUser;
+                        color: @InputForeground;
+                        background-color: @InputBackground;
                         border-width: 1px;
                         border-style: solid;
-                        border-color: @Primary;
+                        border-color: @InputBorder;
                         font: 400 14px  "Inter";
                     }
                     QFontComboBox {
-                        color: @White;
+                        color: @InputForeground;
                         background-color: @BGUser;
                         border-width: 1px;
                         border-style: solid;
-                        border-color: @Primary;
+                        border-color: @InputBorder;
                         border-radius: 4px;
                         font: 400 14px  "Inter";
 
                     }
                     QComboBox {
-                        color: @White;
-                        background-color: @BGUser;
+                        color: @InputForeground;
+                        background-color: @InputBackground;
                         border-width: 1px;
                         border-style: solid;
-                        border-color: @Primary;
+                        border-color: @InputBorder;
                         border-radius: 4px;
                         font: 400 14px  "Inter";
 
@@ -550,15 +561,15 @@
                     }
                     QScrollArea {
                         color: @Primary;
-                        background-color:@BGUser;
+                        background-color:@ScrollAreaBackground;
                     }
                     QSlider::groove:horizontal {
                         height: 5px;
-                        background-color: #52595d;
+                        background-color: @ScrollAreaBackground;
                     }
                     QSlider::groove:vertical {
                         width: 5px;
-                        background-color: #52595d;
+                        background-color: @ScrollAreaBackground;
                     }
                     QSlider::handle:horizontal {
                         background: #1a2224;
@@ -579,10 +590,10 @@
                         border-radius: 7px;
                     }
                     QSlider::add-page:horizontal {
-                        background: #52595d;
+                        background: @ScrollAreaBackground;
                     }
                     QSlider::add-page:vertical {
-                        background: #52595d;
+                        background: @ScrollAreaBackground;
                     }
                     QSlider::sub-page:horizontal {
                         background-color: @Secondary;
