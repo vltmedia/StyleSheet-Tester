@@ -1,0 +1,13 @@
+/* Coolors Exported Palette - https://coolors.co/04254e-052e6d-03488c-032f79-031232-d57e39-d54538-e09a8e-e5e5e5-07080e */
+
+/* CSV */
+04254E,052E6D,03488C,032F79,031232,D57E39,D54538,E09A8E,E5E5E5,07080E
+
+/* Array */
+["04254E","052E6D","03488C","032F79","031232","D57E39","D54538","E09A8E","E5E5E5","07080E"]
+
+/* Object */
+{"Oxford Blue":"04254E","Royal Blue Dark":"052E6D","Yale Blue":"03488C","St Patricks Blue":"032F79","Oxford Blue 2":"031232","Bronze":"D57E39","CG Red":"D54538","Pastel Pink":"E09A8E","Platinum":"E5E5E5","Rich Black FOGRA 39":"07080E"}
+
+/* Extended Array */
+[{"name":"Oxford Blue","hex":"04254E","rgb":[4,37,78],"cmyk":[95,53,0,69],"hsb":[213,95,31],"hsl":[213,90,16],"lab":[15,7,-28]},{"name":"Royal Blue Dark","hex":"052E6D","rgb":[5,46,109],"cmyk":[95,58,0,57],"hsb":[216,95,43],"hsl":[216,91,22],"lab":[20,14,-40]},{"name":"Yale Blue","hex":"03488C","rgb":[3,72,140],"cmyk":[98,49,0,45],"hsb":[210,98,55],"hsl":[210,96,28],"lab":[31,9,-43]},{"name":"St Patricks Blue","hex":"032F79","rgb":[3,47,121],"cmyk":[98,61,0,53],"hsb":[218,98,47],"hsl":[218,95,24],"lab":[22,18,-46]},{"name":"Oxford Blue","hex":"031232","rgb":[3,18,50],"cmyk":[94,64,0,80],"hsb":[221,94,20],"hsl":[221,89,10],"lab":[6,7,-23]},{"name":"Bronze","hex":"D57E39","rgb":[213,126,57],"cmyk":[0,41,73,16],"hsb":[27,73,84],"hsl":[27,65,53],"lab":[61,28,50]},{"name":"CG Red","hex":"D54538","rgb":[213,69,56],"cmyk":[0,68,74,16],"hsb":[5,74,84],"hsl":[5,65,53],"lab":[50,56,39]},{"name":"Pastel Pink","hex":"E09A8E","rgb":[224,154,142],"cmyk":[0,31,37,12],"hsb":[9,37,88],"hsl":[9,57,72],"lab":[70,25,17]},{"name":"Platinum","hex":"E5E5E5","rgb":[229,229,229],"cmyk":[0,0,0,10],"hsb":[0,0,90],"hsl":[0,0,90],"lab":[91,0,0]},{"name":"Rich Black FOGRA 39","hex":"07080E","rgb":[7,8,14],"cmyk":[50,43,0,95],"hsb":[231,50,5],"hsl":[231,33,4],"lab":[2,1,-3]}]
